@@ -1,0 +1,30 @@
+
+/* rules for (almost) entire body */
+
+body {
+    background-color: antiquewhite;
+    color: black;
+    margin: 0;
+}
+
+/* header and nav links */
+header {
+    padding: 15px 25px;
+    background-color: rgb(174, 174, 255);
+    background-image: url();
+    display: flex;
+    justify-content: ;
+    align-items: stretch;
+    flex-wrap; wrap;
+}
+
+header h1 {
+    color: rgb(255, 0, 0);
+    padding; 0 25px;
+    
+
+}
+
+header nav ul a {
+    margin: 0 30px;
+}
