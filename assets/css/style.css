@@ -1,6 +1,12 @@
 
 /* rules for (almost) entire body */
 
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 body {
     background-color: antiquewhite;
     color: black;
@@ -10,22 +16,71 @@ body {
 /* header and nav links */
 header {
     padding: 15px 25px;
-    background-color: rgb(126, 255, 154);
-    background-image: url();
+    background-color: #84e1ff;
+    background-image: url("../images/");
     display: flex;
-    justify-content: ;
-    align-items: stretch;
-    flex-wrap; wrap;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 header h1 {
-    color: orangered;
-    padding; 0 25px;
-    
+    color: orchid;
+    margin: 0;
 
 }
 
-header nav ul a {
+header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav ul li a {
     margin: 0 30px;
-    color: red
+    color: orchid;
+    text-decoration: none;
+    
+}
+
+/* hero and blurb */
+
+.hero {
+    background-color: rgb(177, 255, 146);
+    background-image: url("../images/catskullanimation.gif");
+    background-size: cover; 
+    height: 600px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+footer {
+    background-color: #84e1ff;
+    padding: 15px 25px;
+    width: auto;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+footer ul {
+    
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer ul li {
+    padding: 0 15px;
+}
+
+footer ul li a {
+    color: orchid;
+    text-decoration: none; 
 }
