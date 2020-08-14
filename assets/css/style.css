@@ -25,8 +25,7 @@ header {
 
 header h1 {
     color: orchid;
-    margin: 0;
-
+    margin: 0 30px;
 }
 
 header nav ul {
