@@ -16,7 +16,7 @@ body {
 /* header and nav links */
 header {
     padding: 15px 25px;
-    background-color: #84e1ff;
+    background-color: #bce8f7;
     background-image: url("../images/");
     display: flex;
     justify-content: space-between;
@@ -59,13 +59,18 @@ header nav ul li a {
 }
 
 footer {
-    background-color: #84e1ff;
+    background-color: #bce8f7;
     padding: 15px 25px;
     width: auto;
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
+}
+
+footer h2 {
+    font-weight:bolder;
+    margin: 0;
 }
 
 footer ul {
