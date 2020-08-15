@@ -9,11 +9,13 @@
 body {
     background-color: #000000;
     color: white;
+    font-family: 'Times New Roman', Times, serif;
+
 }
 
 /* header and nav links */
 header {
-    background-color: #bce8f7;
+    background-color: #000000;
     width: auto;
     display: flex;
     flex-wrap: wrap; 
@@ -27,7 +29,9 @@ footer {
 }
 
 header h1 {
-    color: orchid;
+    font-family: 'UnifrakturMaguntia', 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
 }
 
 header nav ul {
@@ -43,7 +47,7 @@ header ul li {
 
 header nav ul li a {
 
-    color: orchid;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     
 }
@@ -51,8 +55,8 @@ header nav ul li a {
 /* hero and blurb */
 
 .hero {
-    background-color: #b2ff94;
-    background-image: url("../images/catskullanimation.gif");
+    background-color: #000000;
+    background-image: url("../images/catblackandwhite.gif");
     background-size: cover; 
     height: 600px; 
     background-position: center;
@@ -65,14 +69,14 @@ header nav ul li a {
 }
 
 .hero h2 {
-    /* margin: 0 25px 120px 0; */
-    font-family: 'Sail', cursive;
-    font-size: 25px;
+    margin: 0 25px 120px 0;
+    font-weight: 800;
+    font-size: 40px;
     display: inline-block;
 }
 
 footer {
-    background-color: #bce8f7;
+    background-color: #000000;
     width: auto;
     display: flex;
     flex-wrap: wrap; 
@@ -97,7 +101,7 @@ footer ul li {
 }
 
 footer ul li a {
-    color: #da70d6;
+    color: #ffffff;
     text-decoration: none; 
     
 }
