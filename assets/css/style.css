@@ -81,6 +81,7 @@ footer {
     display: flex;
     flex-wrap: wrap; 
     justify-content: space-between;
+    align-items: center;
 }
 
 footer h2 {
@@ -201,10 +202,7 @@ footer ul li a {
 /* 980 and smaller screens */
 
 @media screen and (max-width: 980px) {
-    . hero h2 {
-        display: inline-flexbox;
-        justify-content: center;
-    }
+    
 
 }
 
@@ -212,13 +210,77 @@ footer ul li a {
 
 @media screen and (max-width: 768px) {
 
+    header, footer {
+        flex-direction: column;
+        height: 100px;
+    }
 
+    header h2 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+.hero {
+        justify-content: center;
+        padding: 10px;
+        height: 400px;
+    }
+
+    header ul li {
+        padding: 0px 30px;
+    }
+
+    .hero h2 {
+        margin: 0 5px;
+        font-size: 25px;
+    }
+
+    .h2-fonts {
+        font-size: 25px;
+    }
+
+    .wrapper {
+        flex-direction: column;
+    }
+
+    h2.mediafont.h2-fonts {
+        writing-mode: initial;
+        transform: none;
+        text-align: center;
+    }
+
+    .about-img-p, .gridwrapper {
+        margin-left: 0px;
+    }
+
+    .about img {
+        width: 50%;
+    }
+
+    .about p {
+        font-size: 18px;
+    }
+
+    .about, .work {
+        margin: 0px;
+    }
+
+    .work-thumb img {
+        margin: 0px;
+    }
 }
 
 /* small phones and smaller phones */
 
 @media screen and (max-width: 575px) {
 
+    header ul li {
+        padding: 0px 15px;
+    }
+
+    .hero h2 {
+        font-size: 25px;
+    }
 }
 
 
