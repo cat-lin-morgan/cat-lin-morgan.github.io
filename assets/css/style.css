@@ -1,4 +1,4 @@
-/* rules for (almost) entire body */
+/* rules for general body */
 
 * {
     margin: 0px;
@@ -10,22 +10,45 @@ body {
     background-color: #000000;
     color: white;
     font-family: 'Times New Roman', Times, serif;
-
 }
 
-/* header and nav links */
-header {
-    background-color: #000000;
-    width: auto;
+.h2-fonts {
+    font-family: 'UnifrakturMaguntia', 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 800px;
     display: flex;
-    flex-wrap: wrap; 
-    justify-content: space-between;
-    align-items: center;
+}
+
+.about, .work {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    padding: 10px 25px;
 }
 
 header,
 footer {
     padding: 15px 55px;
+}
+
+/* header footer and nav links */
+header {
+    background-color: #000000;
+    width: auto;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    align-items: center;
 }
 
 header h1 {
@@ -52,6 +75,37 @@ header nav ul li a {
     
 }
 
+footer {
+    background-color: #000000;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+}
+
+footer h2 {
+    font-weight: bolder;
+    margin: 0;
+}
+
+footer ul {
+    
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer ul li {
+    padding: 0 15px;
+}
+
+footer ul li a {
+    color: #ffffff;
+    text-decoration: none; 
+    
+}
+
 /* hero and blurb */
 
 .hero {
@@ -75,32 +129,28 @@ header nav ul li a {
     display: inline-block;
 }
 
-.decorfont {
-    font-family: 'UnifrakturMaguntia', 'Times New Roman', Times, serif;
-    font-weight: lighter;
-    font-size: 30px;
-}
 
 /* about me styling */
 
 .about {
-    margin: 25px;
-    padding: 10px 25px;
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
+    
 }
+
 
 .about h2{
     margin: 25px;
     margin-right: 55px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    flex-direction: row-reverse;
+    /* flex: 1 100%; */
 }
 
 .about-img-p {
-    margin-left: 150px;
+    margin-left: 100px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .about img {
@@ -114,34 +164,27 @@ header nav ul li a {
     margin-left: 55px;
 }
 
-/* footer stuff here  */
-footer {
-    background-color: #000000;
-    width: auto;
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: space-between;
-}
+/* work grid nightmare here  */
 
-footer h2 {
-    font-weight:bolder;
-    margin: 0;
-}
-
-footer ul {
-    
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-footer ul li {
-    padding: 0 15px;
-}
-
-footer ul li a {
-    color: #ffffff;
-    text-decoration: none; 
+.work {
     
 }
+
+.work h2{
+    margin: 25px;
+    margin-right: 55px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    flex-direction: row-reverse;
+    /* flex: 1 100%; */
+}
+
+.gridwrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.work-container
+
