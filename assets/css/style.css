@@ -149,10 +149,15 @@ footer ul li a {
     align-items: flex-start;
 }
 
+.about-img-p span {
+    width: 100%;
+    color: #ff00b3;
+}
+
 .about img {
     margin: 10px;
     border: 10px double white;
-    width: 20%;
+    width: 30%;
 }
 
 .about p {
@@ -168,7 +173,6 @@ footer ul li a {
     writing-mode: vertical-lr;
     transform: rotate(180deg);
     flex-direction: row-reverse;
-    /* flex: 1 100%; */
 }
 
 .gridwrapper {
@@ -178,5 +182,16 @@ footer ul li a {
     margin-left: 100px;
 }
 
-.work-container
+.work-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 5px;
+}
 
+.work-thumb {
+    width: 100%;
+}
+
+.work-thumb img {
+    width: 100%;
+}
