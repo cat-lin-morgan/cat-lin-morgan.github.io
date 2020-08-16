@@ -65,16 +65,56 @@ header nav ul li a {
     flex-wrap: wrap;
     align-content: flex-end;
     justify-content: flex-end;
-    padding: 25px 120px;
+    padding: 25px 50px;
 }
 
 .hero h2 {
-    margin: 0 25px 120px 0;
-    font-weight: 800;
-    font-size: 40px;
+    margin: 0 20px;
+    font-weight: 600;
+    font-size: 30px;
     display: inline-block;
 }
 
+.decorfont {
+    font-family: 'UnifrakturMaguntia', 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+/* about me styling */
+
+.about {
+    margin: 25px;
+    padding: 10px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.about h2{
+    margin: 25px;
+    margin-right: 55px;
+}
+
+.about-img-p {
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about img {
+    margin: 10px;
+    border: 10px double white;
+    width: 20%;
+}
+
+.about p {
+    margin: 25px;
+    margin-left: 55px;
+}
+
+/* footer stuff here  */
 footer {
     background-color: #000000;
     width: auto;
