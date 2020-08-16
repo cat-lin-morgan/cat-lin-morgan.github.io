@@ -184,8 +184,8 @@ footer ul li a {
 
 .work-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
 }
 
 .work-thumb {
@@ -194,4 +194,32 @@ footer ul li a {
 
 .work-thumb img {
     width: 100%;
+    margin: 10px;
+    border: 10px double white;
 }
+
+/* 980 and smaller screens */
+
+@media screen and (max-width: 980px) {
+    . hero h2 {
+        display: inline-flexbox;
+        justify-content: center;
+    }
+
+}
+
+/* for tablets and smaller */
+
+@media screen and (max-width: 768px) {
+
+
+}
+
+/* small phones and smaller phones */
+
+@media screen and (max-width: 575px) {
+
+}
+
+
+
