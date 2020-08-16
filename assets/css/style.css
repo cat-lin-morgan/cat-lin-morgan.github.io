@@ -220,7 +220,7 @@ footer ul li a {
         padding-bottom: 10px;
     }
 
-.hero {
+    .hero {
         justify-content: center;
         padding: 10px;
         height: 400px;
@@ -281,7 +281,67 @@ footer ul li a {
     .hero h2 {
         font-size: 25px;
     }
+
+    .about p {
+    font-size: 12px;
+    }
+
+    footer ul li {
+        padding: 0px 5px;
+        white-space: nowrap;
+        font-size: 12px;
+    }
 }
 
+/* actual phone size */
+@media screen and (max-width: 400px) {
 
+    header nav ul li a {
+        font-size: 10px;
+    }
+
+    header, footer {
+        height: 85px;
+    }
+
+    .hero {
+         height: 250px;
+    }
+
+    .hero h2 {
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+
+    .about-img-p {
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .about img {
+        width: 90%;
+    }
+
+    footer {
+        flex-wrap: nowrap;
+    }
+
+    .about p {
+        margin: 25px;
+        text-align: center;
+    }
+
+    footer ul {
+        flex-direction: column;
+    }
+
+    footer ul li {
+        padding: 5px 0;
+    }
+
+    footer ul li:last-child {
+        margin-bottom: 20px;
+    }
+
+}
 
