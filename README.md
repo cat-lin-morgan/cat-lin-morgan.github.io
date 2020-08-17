@@ -1,5 +1,3 @@
-# cat-lin-morgan.github.io
-
 #Welcome to the code for my brand new portfolio!
 
 Here is a direct and working URL to my active website.
@@ -26,7 +24,7 @@ On standard desktop/laptop screens and smaller desktop/laptop screens, my applic
 
 My repo is uniquely named after myself, follows best practices for file structure, naming conventions, class/ids, indentations, and quality commits.
 
-So far my repo has 20 commits in counting, and will continue to be worked on throughout my career. 
+So far my repo has 25 commits and counting, and will continue to be worked on throughout my career. 
 
 Screens shots below. First is my mobile viewport. Second is my laptop viewport, remember that titles appear on hover.
 
