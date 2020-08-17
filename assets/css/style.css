@@ -42,6 +42,18 @@ footer ul li a:hover {
     color: #ff00b3;
 }
 
+header nav li a:before {
+    content: '♡';
+    color: #ff0054;
+    opacity: 0;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+header nav li a:hover:before {
+    opacity: 1;
+}
+
 
 /* header footer and nav links */
 header {
@@ -50,7 +62,7 @@ header {
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 9999;
     display: flex;
     flex-wrap: wrap; 
     justify-content: space-between;
@@ -197,8 +209,13 @@ footer ul li a {
 
 }
 
+.container-1 {
+    grid-column: 1 / span 2;
+}
+
 .work-thumb {
     width: 100%;
+    position: relative;
 }
 
 .work-thumb img {
@@ -206,9 +223,34 @@ footer ul li a {
     border: 10px double white;
 }
 
-.container-1 {
-    grid-column: 1 / span 2;
+.work-thumb figcaption {
+    position: absolute;
+    z-index: 2;
+    bottom: 10%;
+    right: 10px;
+    padding: 5px;
+    background-color: white;
+    font-family: 'UnifrakturMaguntia', 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    color: black;
+    opacity: 0;
+    transition: opacity 0.25s ease, bottom 0.25s ease;
 }
+
+.work-thumb:hover figcaption {
+    opacity: 1;
+    bottom: 15%;
+}
+
+.work-thumb figcaption small {
+    display: inline-block;
+    margin-top: 1px;
+    font-size: 70%;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
 
 /* 980 and smaller screens */
 
@@ -278,6 +320,13 @@ footer ul li a {
 
     .work-container {
         max-width: 70%;
+    }
+
+    .work-thumb figcaption {
+        bottom: 15%;
+        opacity: 1;
+    }
+
 }
 
 /* small phones and smaller phones */
@@ -359,6 +408,13 @@ footer ul li a {
 
     .work-container {
         width: 80%;
+    }
+
+    .work-thumb figcaption {
+        bottom: 25%;
+        right: 10px;
+        padding: 2px;
+        font-size: 12px;
     }
 
 }
