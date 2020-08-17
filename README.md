@@ -35,5 +35,5 @@ Screens shots below. First is my mobile viewport. Second is my laptop viewport, 
 
 ---
 
-** Thank you for viewing. **
+**Thank you for viewing.**
 
