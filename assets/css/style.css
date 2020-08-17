@@ -37,6 +37,12 @@ footer {
     padding: 15px 55px;
 }
 
+header nav li a:hover,
+footer ul li a:hover {
+    color: #ff00b3;
+}
+
+
 /* header footer and nav links */
 header {
     background-color: #000000;
