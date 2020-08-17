@@ -22,6 +22,8 @@ All links work and either take you to their respective sections on page or off p
 
 The first application in my grid is the biggest and they have all been organized in a way I find visually appealing.
 
+On standard desktop/laptop screens and smaller desktop/laptop screens, my applications have a title on hover. On smaller tablets and iphones the title is always there.
+
 My repo is uniquely named after myself, follows best practices for file structure, naming conventions, class/ids, indentations, and quality commits.
 
 So far my repo has 20 commits in counting, and will continue to be worked on throughout my career. 
