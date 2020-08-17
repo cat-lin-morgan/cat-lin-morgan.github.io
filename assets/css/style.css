@@ -185,8 +185,10 @@ footer ul li a {
 
 .work-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     column-gap: 10px;
+
 }
 
 .work-thumb {
@@ -195,14 +197,16 @@ footer ul li a {
 
 .work-thumb img {
     width: 100%;
-    margin: 10px;
     border: 10px double white;
+}
+
+.container-1 {
+    grid-column: 1 / span 2;
 }
 
 /* 980 and smaller screens */
 
 @media screen and (max-width: 980px) {
-    
 
 }
 
@@ -265,9 +269,8 @@ footer ul li a {
         margin: 0px;
     }
 
-    .work-thumb img {
-        margin: 0px;
-    }
+    .work-container {
+        max-width: 70%;
 }
 
 /* small phones and smaller phones */
@@ -284,6 +287,10 @@ footer ul li a {
 
     .about p {
     font-size: 12px;
+    }
+
+    .work-container {
+        width: 65%;
     }
 
     footer ul li {
@@ -319,7 +326,7 @@ footer ul li a {
     }
     
     .about img {
-        width: 90%;
+        width: 70%;
     }
 
     footer {
@@ -341,6 +348,10 @@ footer ul li a {
 
     footer ul li:last-child {
         margin-bottom: 20px;
+    }
+
+    .work-container {
+        width: 80%;
     }
 
 }
