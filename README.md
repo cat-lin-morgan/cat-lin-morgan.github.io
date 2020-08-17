@@ -1,1 +1,30 @@
 # cat-lin-morgan.github.io
+
+#Welcome to the code for my brand new portfolio!
+
+Here is a direct and working URL to my active website.
+https://cat-lin-morgan.github.io/
+
+##Acceptance Criteria
+
+It represents my breath of work and creative tastes.
+
+It is viewable on multiple screen sizes, including smaller screen sizes: 980px, 768px, 575px, and 400px!
+
+Each size has it's own unique layout which flatters each screen size respectively. 
+
+Page is complete with Nav, Sections, and Footer.
+Page has my name, contact information, and a recent photograph of me.
+
+All images and GIFs used are owned (or created) by me for me (or my "clients").
+
+All links work and either take you to their respective sections on page or off page, using "target=_blank" to not disrupt your browsing.
+
+The first application in my grid is the biggest and they have all been organized in a way I find visually appealing.
+
+My repo is uniquely named after myself, follows best practices for file structure, naming conventions, class/ids, indentations, and quality commits.
+
+So far my repo has 20 commits in counting, and will continue to be worked on throughout my career. 
+
+Screens shots below.
+
