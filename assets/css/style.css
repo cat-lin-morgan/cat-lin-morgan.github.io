@@ -1,3 +1,4 @@
+
 /* rules for general body */
 
 * {
@@ -44,7 +45,7 @@ footer ul li a:hover {
 
 header nav li a:before {
     content: '♡';
-    color: #ff0054;
+    color: #ff00b3;
     opacity: 0;
     display: inline-block;
     margin-right: 5px;
