@@ -28,5 +28,9 @@ My repo is uniquely named after myself, follows best practices for file structur
 
 So far my repo has 20 commits in counting, and will continue to be worked on throughout my career. 
 
-Screens shots below.
+Screens shots below. First is my mobile viewport. Second is my laptop viewport, remember that titles appear on hover.
+
+<img src="./assets/images/mobilescreenshot.png" />
+
+<img src="./assets/images/desktopscreenshot.png" />
 
