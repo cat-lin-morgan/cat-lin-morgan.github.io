@@ -255,6 +255,10 @@ footer ul li a {
 
 @media screen and (max-width: 980px) {
 
+    .about-img-p span {
+        color: #f79bd2;
+    }
+    
 }
 
 /* for tablets and smaller */
@@ -316,6 +320,10 @@ footer ul li a {
         margin: 0px;
     }
 
+    .about-img-p span {
+        color: #009371;
+    }
+
 
     .work-container {
         max-width: 70%;
@@ -342,6 +350,10 @@ footer ul li a {
 
     .about p {
     font-size: 12px;
+    }
+
+    .about-img-p span {
+        color: #37a7df;
     }
 
     .work-container {
