@@ -1,7 +1,7 @@
 # Welcome to the code for my brand new portfolio!
 
 Here is a direct and working URL to my active website.
-[Click here for my active website!](https://cat-lin-morgan.github.io/ Cat's Portfolio)
+[Click here for my active website!](https://cat-lin-morgan.github.io/ "Cat's Portfolio")
 
 ## Acceptance Criteria
 
