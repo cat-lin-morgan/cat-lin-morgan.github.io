@@ -435,3 +435,8 @@ footer ul li a {
 
 }
 
+@media screen and (max-width: 400px) {
+    header ul li {
+        padding: 0px 8px;
+    }
+}
