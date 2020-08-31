@@ -268,7 +268,6 @@ footer ul li a {
 
     header, footer {
         flex-direction: column;
-        height: 100px;
     }
 
     header h2 {
@@ -283,7 +282,7 @@ footer ul li a {
     }
 
     header ul li {
-        padding: 0px 30px;
+        padding: 0px 20px;
     }
 
     .hero h2 {
@@ -342,7 +341,7 @@ footer ul li a {
 @media screen and (max-width: 575px) {
 
     header ul li {
-        padding: 0px 15px;
+        padding: 0px 10px;
     }
 
     .hero h2 {
@@ -410,6 +409,10 @@ footer ul li a {
         text-align: center;
     }
 
+    .about-img-p span {
+        color: #19ca31;
+    }
+
     footer ul {
         flex-direction: column;
     }
@@ -436,7 +439,7 @@ footer ul li a {
 }
 
 @media screen and (max-width: 400px) {
-    header ul li {
-        padding: 0px 8px;
+    .about-img-p span {
+        color: #ff66a6;
     }
 }
