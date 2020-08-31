@@ -371,6 +371,10 @@ footer ul li a {
 /* actual phone size */
 @media screen and (max-width: 400px) {
 
+    header ul li {
+        padding: 0px 8px;
+    }
+
     header nav ul li a {
         font-size: 10px;
     }
