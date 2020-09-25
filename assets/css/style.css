@@ -258,7 +258,7 @@ footer ul li a {
 .work-thumb figcaption {
     position: absolute;
     z-index: 2;
-    bottom: 10%;
+    bottom: 30%;
     right: 10px;
     padding: 5px;
     background-color: white;
@@ -271,15 +271,15 @@ footer ul li a {
 
 .work-thumb:hover figcaption {
     opacity: 1;
+    bottom: 45%;
+}
+
+.work-thumb:first-child figcaption {
+    bottom: 10%;
+}
+
+.work-thumb:hover:first-child figcaption {
     bottom: 15%;
-}
-
-.work-thumb figcaption:nth-child(n+2) {
-    bottom: 30%;
-}
-
-.work-thumb:hover figcaption:nth-child(n+2) {
-    bottom: 40%;
 }
 
 
@@ -370,8 +370,12 @@ footer ul li a {
     }
 
     .work-thumb figcaption {
-        bottom: 15%;
+        bottom: 45%;
         opacity: 1;
+    }
+
+    work-thumb:first-child figcaption {
+        bottom: 15%;
     }
 
     /* scroll bar styles  */
@@ -482,7 +486,7 @@ footer ul li a {
     }
 
     .work-thumb figcaption {
-        bottom: 25%;
+        bottom: 50%;
         right: 10px;
         padding: 2px;
         font-size: 12px;
@@ -500,7 +504,7 @@ footer ul li a {
             #46f03d,
             #3df0ba,
             #3d9ff0,
-            #613df0
+            #613df0 
         );
         background-clip: content-box;
         -webkit-background-clip: text;
