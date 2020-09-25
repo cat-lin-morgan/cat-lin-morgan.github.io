@@ -487,11 +487,24 @@ footer ul li a {
         padding: 2px;
         font-size: 12px;
     }
-
 }
 
 @media screen and (max-width: 400px) {
-    /* .about-img-p span {
-        color: linear-gradient(0deg, hsl(297,86%,59%),hsl(342,86%,59%),hsl(27,86%,59%),hsl(72,86%,59%),hsl(117,86%,59%),hsl(162,86%,59%),hsl(207,86%,59%),hsl(252,86%,59%));;
-    } */
+    h1 {
+        background: -webkit-linear-gradient(
+            5deg,
+            #e73df0,
+            #f03d72,
+            #f08d3d,
+            #ccf03d,
+            #46f03d,
+            #3df0ba,
+            #3d9ff0,
+            #613df0
+        );
+        background-clip: content-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: lighter;
+    }
 }
