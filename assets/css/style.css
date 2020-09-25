@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-/* scroll bar styles  */
+/* scroll bar styles */
 html {  
     overflow: -moz-scrollbars-none;
     scrollbar-width: none;
@@ -37,6 +37,7 @@ background: transparent;
     opacity: 0;
   }
 
+/* below are overall styles  */
 body {
     background-color: #000000;
     color: white;
@@ -60,7 +61,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin: 25px;
+    /* margin: 25px; */
     padding: 10px 25px;
 }
 
@@ -158,7 +159,6 @@ footer ul li a {
 }
 
 /* hero and blurb */
-
 .hero {
     background-color: #000000;
     background-image: url("../images/catblackandwhite.gif");
@@ -182,7 +182,6 @@ footer ul li a {
 
 
 /* about me styling */
-
 
 .about h2{
     margin: 25px;
@@ -214,6 +213,7 @@ footer ul li a {
 .about p {
     margin: 25px;
     margin-left: 55px;
+    font-weight: lighter;
 }
 
 /* work grid nightmare here  */
@@ -273,6 +273,15 @@ footer ul li a {
     opacity: 1;
     bottom: 15%;
 }
+
+.work-thumb figcaption:nth-child(n+2) {
+    bottom: 30%;
+}
+
+.work-thumb:hover figcaption:nth-child(n+2) {
+    bottom: 40%;
+}
+
 
 .work-thumb figcaption small {
     display: inline-block;
@@ -365,17 +374,17 @@ footer ul li a {
         opacity: 1;
     }
 
-/* scroll bar styles  */
-#progressBarContainer {
-    width: 0px;
-    background: #000000;
-}
+    /* scroll bar styles  */
+    #progressBarContainer {
+        width: 0px;
+        background: #000000;
+    }
 
-#progressBar {
-    width: 0px;
-    opacity: 1;
-    background-color: #000000;
-  }
+    #progressBar {
+        width: 0px;
+        opacity: 1;
+        background-color: #000000;
+    }
 
 }
 
@@ -482,7 +491,7 @@ footer ul li a {
 }
 
 @media screen and (max-width: 400px) {
-    .about-img-p span {
+    /* .about-img-p span {
         color: linear-gradient(0deg, hsl(297,86%,59%),hsl(342,86%,59%),hsl(27,86%,59%),hsl(72,86%,59%),hsl(117,86%,59%),hsl(162,86%,59%),hsl(207,86%,59%),hsl(252,86%,59%));;
-    }
+    } */
 }
