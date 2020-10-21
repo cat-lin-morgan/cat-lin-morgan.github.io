@@ -61,7 +61,6 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    /* margin: 25px; */
     padding: 10px 25px;
 }
 
@@ -156,6 +155,14 @@ footer ul li a {
     color: #ffffff;
     text-decoration: none; 
     
+}
+
+footer ul li a span {
+    color: #ff00b3;
+}
+
+footer ul li a span:hover {
+    color: #ffffff;
 }
 
 /* hero and blurb */
