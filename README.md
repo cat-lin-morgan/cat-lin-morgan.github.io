@@ -1,6 +1,8 @@
 # Welcome to the code for my brand new portfolio!
 
-Here is a direct and working URL to my active website.
+![love badge](https://img.shields.io/badge/Made%20w%2F-100%25%20%E2%9D%A4-ff69b4)
+![javascript badge](https://img.shields.io/badge/We%20Stan-Javascript-brightgreen)
+
 
 [Click here for my active website!](https://cat-lin-morgan.github.io/ "Cat's Portfolio")
 
@@ -36,7 +38,7 @@ First is my mobile viewport. Second is my laptop viewport, remember that titles 
 <img src="./assets/images/desktopscreenshot.png" alt="Desktop Screen Shot of Website at 1024px."/>
 
 Recently I've added a rainbow scroller, currently being adapted for media queries via Javascript. 
-Tutorial loosely followed from Codrops and adapted by me for my needs.
+Tutorial loosely followed from a Codrops tutorial and adapted by me for my needs.
 I'm having some trouble finding it again but will note it when I do. All code is noted in my css and javascript.
 
 ---
