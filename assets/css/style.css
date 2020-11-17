@@ -199,11 +199,18 @@ footer ul li a span:hover {
     /* flex: 1 100%; */
 }
 
+span#about-blurb {
+    font-size: 1.25em;
+    color: #fff;
+}
+span.about-hello {
+    font-size: 1.04em;
+}
+
 .about-img-p {
-    margin-left: 100px;
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: flex-start; */
 }
 
 .about-img-p span {
@@ -212,14 +219,16 @@ footer ul li a span:hover {
 }
 
 .about img {
-    margin: 10px;
-    border: 10px double white;
-    width: 30%;
+    margin: 20px 15px;
+    float: left;
+    shape-outside: circle(50%);
+    width: 35%;
 }
+
 
 .about p {
     margin: 25px;
-    margin-left: 55px;
+    margin-left: 15px;
     font-weight: lighter;
 }
 
