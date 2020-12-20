@@ -3,6 +3,8 @@
 ![love badge](https://img.shields.io/badge/Made%20w%2F-100%25%20%E2%9D%A4-ff69b4)
 ![javascript badge](https://img.shields.io/badge/We%20Stan-Javascript-brightgreen)
 
+。・゜♡ ・ 。 。・゜ ♡   。・゜              ♡ ・ 。       。・゜ ♡        ♡   。・゜     ♡       .               .♡            ・ 。       。・゜ ♡     。・゜           ♡ ・ 。       。・゜ ♡   。・゜              ♡ ・ 。       。・゜ ♡    ♡
+
 
 [Click here for my active website!](https://cat-lin-morgan.github.io/ "Cat's Portfolio")
 
