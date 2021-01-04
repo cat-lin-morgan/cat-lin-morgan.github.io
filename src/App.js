@@ -1,6 +1,7 @@
 import React from 'react';
 import Nav from './components/Nav';
 import Cover from './components/Cover';
+import About from './components/About';
 import Footer from './components/Footer';
 
 
@@ -9,7 +10,7 @@ function App() {
     <>
       <Nav />
       <Cover />
-      <div>Hi</div>
+      <About />
       <Footer />
     </>
   );

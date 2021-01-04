@@ -1,3 +1,117 @@
-body {
-  color: pink;
+
+/* general styling */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
+
+body {
+  background-color: #000000;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  /* width: 80vh; */
+  display: flex;
+  justify-content: center;
+}
+
+
+.section-title { /* this goes on all h2 section titles */
+  font-family: 'UnifrakturMaguntia', 'Times New Roman', Times, serif;
+  font-weight: lighter;
+}
+
+/* header and footer styling */
+
+h1 {
+  font-family: 'UnifrakturMaguntia', 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  font-size: 30px;
+  letter-spacing: 0.02rem;
+}
+
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header ul li {
+  padding: 0 5em;
+}
+
+header nav ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+footer ul li {
+  padding: 1em;
+}
+
+footer ul li a {
+  color: #ffffff;
+  text-decoration: none; 
+}
+
+/* about styling */
+
+.about-wrapper {
+  width: 100%;
+  max-width: 80vh;
+  justify-content: center;
+}
+
+.about-wrapper h2 {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  flex-direction: row-reverse;
+  margin: 2em;
+}
+
+.about-wrapper p {
+  margin: 3em;
+  font-weight: lighter;
+}
+
+.about-wrapper img {
+  margin: 20px 15px;
+  /* float: left; */
+  /* shape-outside: circle(50%); */
+  width: 15%;
+}
+
+.para-img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
