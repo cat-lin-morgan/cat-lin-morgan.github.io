@@ -1,6 +1,10 @@
-# Welcome to the code for my brand new portfolio!
+# Cat Lin's Portfolio
 
-Here is a direct and working URL to my active website.
+![love badge](https://img.shields.io/badge/Made%20w%2F-100%25%20%E2%9D%A4-ff69b4)
+![javascript badge](https://img.shields.io/badge/We%20Stan-Javascript-brightgreen)
+
+。・゜♡ ・ 。 。・゜ ♡   。・゜              ♡ ・ 。       。・゜ ♡        ♡   。・゜     ♡       .               .♡            ・ 。       。・゜
+
 
 [Click here for my active website!](https://cat-lin-morgan.github.io/ "Cat's Portfolio")
 
@@ -16,6 +20,7 @@ Page is complete with Nav, Sections, and Footer.
 Page has my name, contact information, and a recent photograph of me.
 
 All images and GIFs used are owned (or created) by me for me (or my "clients").
+Animation made by me with the AnimDessim Photoshop plug in found here on GitHub!
 
 All links work. They either take you to their respective sections on page or off page (off page using "target=_blank" to not disrupt your browsing).
 
@@ -33,6 +38,10 @@ First is my mobile viewport. Second is my laptop viewport, remember that titles 
 <img src="./assets/images/mobilescreenshot.png" alt="Mobile Screen Shot of Website at 400px."/>
 
 <img src="./assets/images/desktopscreenshot.png" alt="Desktop Screen Shot of Website at 1024px."/>
+
+Recently I've added a rainbow scroller, currently being adapted for media queries via Javascript. 
+Tutorial loosely followed from a Codrops tutorial and adapted by me for my needs.
+I'm having some trouble finding it again but will note it when I do. All code is noted in my css and javascript.
 
 ---
 

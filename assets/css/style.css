@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-/* scroll bar styles  */
+/* scroll bar styles */
 html {  
     overflow: -moz-scrollbars-none;
     scrollbar-width: none;
@@ -37,6 +37,7 @@ background: transparent;
     opacity: 0;
   }
 
+/* below are overall styles  */
 body {
     background-color: #000000;
     color: white;
@@ -60,7 +61,6 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin: 25px;
     padding: 10px 25px;
 }
 
@@ -157,8 +157,15 @@ footer ul li a {
     
 }
 
-/* hero and blurb */
+footer ul li a span {
+    color: #ff00b3;
+}
 
+footer ul li a span:hover {
+    color: #ffffff;
+}
+
+/* hero and blurb */
 .hero {
     background-color: #000000;
     background-image: url("../images/catblackandwhite.gif");
@@ -183,7 +190,6 @@ footer ul li a {
 
 /* about me styling */
 
-
 .about h2{
     margin: 25px;
     margin-right: 55px;
@@ -193,12 +199,19 @@ footer ul li a {
     /* flex: 1 100%; */
 }
 
-.about-img-p {
-    margin-left: 100px;
+span#about-blurb {
+    font-size: 1.25em;
+    color: #fff;
+}
+span.about-hello {
+    font-size: 1.04em;
+}
+
+/* .about-img-p {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-}
+} */
 
 .about-img-p span {
     width: 100%;
@@ -206,14 +219,17 @@ footer ul li a {
 }
 
 .about img {
-    margin: 10px;
-    border: 10px double white;
-    width: 30%;
+    margin: 20px 15px;
+    float: left;
+    shape-outside: circle(50%);
+    width: 35%;
 }
+
 
 .about p {
     margin: 25px;
-    margin-left: 55px;
+    margin-left: 15px;
+    font-weight: lighter;
 }
 
 /* work grid nightmare here  */
@@ -230,14 +246,14 @@ footer ul li a {
     display: flex;
     width: 100%;
     justify-content: center;
-    margin-left: 100px;
+    /* margin-left: 100px; */
 }
 
 .work-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    column-gap: 10px;
+    /* grid-template-rows: 1fr 1fr; */
+    column-gap: 5px;
 
 }
 
@@ -258,7 +274,7 @@ footer ul li a {
 .work-thumb figcaption {
     position: absolute;
     z-index: 2;
-    bottom: 10%;
+    bottom: 30%;
     right: 10px;
     padding: 5px;
     background-color: white;
@@ -271,8 +287,21 @@ footer ul li a {
 
 .work-thumb:hover figcaption {
     opacity: 1;
-    bottom: 15%;
+    bottom: 45%;
+    transition: opacity 0.25s ease, bottom 0.25s ease;
+    background-color: white;
 }
+
+.work-thumb:first-child figcaption {
+    opacity: 0;
+    bottom: 25%;
+}
+
+.work-thumb:hover:first-child figcaption {
+    opacity: 1;
+    bottom: 35%;
+}
+
 
 .work-thumb figcaption small {
     display: inline-block;
@@ -361,21 +390,33 @@ footer ul li a {
     }
 
     .work-thumb figcaption {
-        bottom: 15%;
+        bottom: 45%;
         opacity: 1;
     }
 
+<<<<<<< HEAD
 /* scroll bar style  */
 #progressBarContainer {
     width: 0px;
     background: #000000;
 }
+=======
+    work-thumb:first-child figcaption {
+        bottom: 15%;
+    }
+>>>>>>> develop
 
-#progressBar {
-    width: 0px;
-    opacity: 1;
-    background-color: #000000;
-  }
+    /* scroll bar styles  */
+    #progressBarContainer {
+        width: 0px;
+        background: #000000;
+    }
+
+    #progressBar {
+        width: 0px;
+        opacity: 1;
+        background-color: #000000;
+    }
 
 }
 
@@ -426,12 +467,12 @@ footer ul li a {
     }
 
     .hero {
-         height: 250px;
+         height: 700px;
     }
 
     .hero h2 {
-        font-size: 15px;
-        margin-bottom: 25px;
+        font-size: 25px;
+        margin-bottom: 125px;
     }
 
     .about-img-p {
@@ -473,16 +514,32 @@ footer ul li a {
     }
 
     .work-thumb figcaption {
-        bottom: 25%;
         right: 10px;
         padding: 2px;
         font-size: 12px;
     }
+}
 
+.work-thumb:first-child figcaption {
+    bottom: 25%;
 }
 
 @media screen and (max-width: 400px) {
-    .about-img-p span {
-        color: linear-gradient(0deg, hsl(297,86%,59%),hsl(342,86%,59%),hsl(27,86%,59%),hsl(72,86%,59%),hsl(117,86%,59%),hsl(162,86%,59%),hsl(207,86%,59%),hsl(252,86%,59%));;
+    h1 {
+        background: -webkit-linear-gradient(
+            5deg,
+            #e73df0,
+            #f03d72,
+            #f08d3d,
+            #ccf03d,
+            #46f03d,
+            #3df0ba,
+            #3d9ff0,
+            #613df0 
+        );
+        background-clip: content-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: lighter;
     }
 }

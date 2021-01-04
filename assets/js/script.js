@@ -9,3 +9,5 @@ window.onscroll = () => {
     progressBar.style.height = `${newProgressHeight}%`;
     progressBar.style.opacity = `${newProgressHeight}%`;
   };
+
+
