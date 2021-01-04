@@ -1,8 +1,17 @@
-import './App.css';
+import React from 'react';
+import Nav from './components/Nav';
+import Cover from './components/Cover';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
-    <div>Hi</div>
+    <>
+      <Nav />
+      <Cover />
+      <div>Hi</div>
+      <Footer />
+    </>
   );
 }
 

@@ -2,6 +2,7 @@
   "name": "cat-lin-morgan",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://cat-lin-morgan.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.8",
     "@testing-library/react": "^11.2.2",
