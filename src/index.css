@@ -12,10 +12,14 @@ body {
   color: white;
   font-family: 'Times New Roman', Times, serif;
   /* width: 80vh; */
-  display: flex;
-  justify-content: center;
 }
 
+#root {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 
 .section-title { /* this goes on all h2 section titles */
   font-family: 'UnifrakturMaguntia', 'Times New Roman', Times, serif;
@@ -36,7 +40,8 @@ header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  z-index: 2;
+  z-index: 3;
+  background-color: #000000;
   display: flex;
   flex-wrap: wrap; 
   justify-content: space-between;
@@ -82,15 +87,52 @@ footer ul li a {
   text-decoration: none; 
 }
 
-/* about styling */
-
-.about-wrapper {
+/* cover  styling */
+.cover-empty {
   width: 100%;
-  max-width: 80vh;
-  justify-content: center;
+  height: 600px;
 }
 
-.about-wrapper h2 {
+.cover {
+  width: 100%;
+  height: 600px;
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  background-image: url('./assets/images/catblackandwhite.gif');
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.cover h2 {
+  margin: 3em;
+}
+
+
+/* about and project styling */
+.about,
+.projects {
+  display: flex;
+  justify-content: center;
+  width: 50vw;
+}
+
+.about-wrapper,
+.projects-wrapper {
+  background-color: #000000;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+}
+
+.about-wrapper h2,
+.projects-wrapper h2 {
   writing-mode: vertical-lr;
   transform: rotate(180deg);
   flex-direction: row-reverse;
@@ -104,14 +146,51 @@ footer ul li a {
 
 .about-wrapper img {
   margin: 20px 15px;
-  /* float: left; */
-  /* shape-outside: circle(50%); */
-  width: 15%;
+  float: left;
+  shape-outside: circle(50%);
+  width: 35%;
 }
 
-.para-img-wrapper {
+.project-tiles {
+  position: relative;
+  width: 60%;
+}
+
+.project-tile-wrapper {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-bottom: 1em;
 }
 
+.project-tiles img {
+  width: 100%;
+}
+
+.project-tiles figcaption {
+  position: absolute;
+  z-index: 3;
+  opacity: 0;
+  color: hsla(303, 100%, 50%, 0.50);
+  font-size: 4em;
+  font-weight: lighter;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.55s ease;
+}
+
+.project-tiles:hover figcaption {
+  opacity: 1;
+}
+
+.project-text {
+  margin-left: 1em;
+}
+
+.project-text i {
+  color: #fff;
+}
+
+.project-text a {
+  color: #fff;
+  text-decoration: none;
+}

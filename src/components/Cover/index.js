@@ -2,9 +2,12 @@ import React from 'react';
 
 function Cover() {
     return (
-        <section>
-            <h2>Artist / Designer / Developer</h2>
-        </section>
+        <>
+            <div className='cover-empty'/>
+            <section className='cover'>
+                <h2>Artist / Designer / Developer</h2>
+            </section>
+        </>
     )
 }
 
