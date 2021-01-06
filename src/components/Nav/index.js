@@ -1,20 +1,44 @@
 import React from 'react';
 
-function Nav(props) {
+export const pages = [
+    {
+        id: 'homepage',
+        name: 'About Me'
+    },
+    {
+        id: 'projects',
+        name: 'My Work'
+    },
+    {
+        id: 'contacts',
+        name: 'How To Reach Me'
+    }
+];
+
+
+function Nav({ currentPage, setCurrentPage }) {
+
+    function getClassName(page) {
+        return page === currentPage ? 'active' : '';
+    }
+
     return(
         <header>
             <h1>Cat Lin Morgan</h1>
             <nav>
                 <ul>
-                    <li>
-                        <a href="#about-me">About Me</a>
-                    </li>
-                    <li>
-                        <a href="#my-work">My Work</a>
-                    </li>
-                    <li>
-                        <a href="#how-to-reach-me">How To Reach Me</a>
-                    </li>
+                    {
+                        pages.map((page) => (
+                            <li className={getClassName(page.id)} onClick={
+                                () => {
+                                    setCurrentPage(page.id);
+                                    document.title = page.name;
+                                }
+                            }>
+                                {page.name}
+                            </li>
+                        ))
+                    }
                 </ul>
             </nav>
         </header>

@@ -67,11 +67,18 @@ header nav ul {
 
 header ul li {
   padding: 0 5em;
+
 }
 
-header nav ul li a {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
+header ul li:hover,
+footer ul li a:hover {
+  color: #ff00b3;
+  cursor: pointer;
+}
+
+header ul li.active {
+  color: chartreuse;
+  cursor: pointer;
 }
 
 footer {
@@ -87,6 +94,8 @@ footer {
   background-size: contain;
   background-repeat: no-repeat;
   padding: 2em;
+  z-index: 2;
+  position: relative;
 }
 
 footer ul {
@@ -112,12 +121,6 @@ footer ul li a {
 }
 
 .cover {
-  width: 100%;
-  height: 600px;
-  position: fixed;
-  z-index: 0;
-  top: 0;
-  left: 0;
   background-image: url('./assets/images/catblackandwhite.gif');
   background-size: auto;
   background-repeat: no-repeat;
@@ -125,6 +128,12 @@ footer ul li a {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+  width: 100%;
+  height: 550px;
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
 }
 
 .cover h2 {
