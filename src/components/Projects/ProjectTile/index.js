@@ -9,7 +9,7 @@ function ProjectTile({website, title, subtitle, description, fileName, alt}) {
                     <a href={website} target="_blank">
                         <img src={require(`../../../assets/images/websites/${fileName}`).default} alt={alt} />
                         <figcaption>
-                            <i class="fas fa-external-link-alt"></i>
+                            <i className="fas fa-external-link-alt"></i>
                         </figcaption>
                     </a>
                 </figure>
@@ -18,7 +18,7 @@ function ProjectTile({website, title, subtitle, description, fileName, alt}) {
             <div className='project-text'>
                 <h3>{title}</h3>
                 <small>{subtitle}</small><br />
-                <a href='{}'><i class="fab fa-github"></i> Github Repo</a>
+                <a href='{}'><i className="fab fa-github"></i> Github Repo</a>
                 <p>{description}</p>
             </div>
         </div>

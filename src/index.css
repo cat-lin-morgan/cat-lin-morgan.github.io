@@ -26,6 +26,16 @@ body {
   font-weight: lighter;
 }
 
+.btn {
+  padding: 10px 15px;
+  margin: 5px;
+  background-color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+
 /* header and footer styling */
 
 h1 {
@@ -122,16 +132,18 @@ footer ul li a {
 }
 
 
-/* about and project styling */
+/* about, project, and constact form styling */
 .about,
-.projects {
+.projects,
+.contacts {
   display: flex;
   justify-content: center;
   width: 50vw;
 }
 
 .about-wrapper,
-.projects-wrapper {
+.projects-wrapper,
+.contact-wrapper {
   background-color: #000000;
   width: 100%;
   display: flex;
@@ -140,7 +152,8 @@ footer ul li a {
 }
 
 .about-wrapper h2,
-.projects-wrapper h2 {
+.projects-wrapper h2,
+.contact-wrapper h2 {
   writing-mode: vertical-lr;
   transform: rotate(180deg);
   flex-direction: row-reverse;
@@ -177,7 +190,7 @@ footer ul li a {
   position: absolute;
   z-index: 3;
   opacity: 0;
-  color: hsla(303, 100%, 50%, 0.50);
+  color: rgba(255, 0, 242, 0.5);
   font-size: 4em;
   font-weight: lighter;
   top: 50%;
@@ -201,4 +214,17 @@ footer ul li a {
 .project-text a {
   color: #fff;
   text-decoration: none;
+}
+
+.contact-wrapper input,
+.contact-wrapper textarea {
+  padding: 5px;
+  border: 1px #000;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.form {
+  display: flex;
+  margin: 2em;
 }

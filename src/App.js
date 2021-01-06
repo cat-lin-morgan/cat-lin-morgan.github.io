@@ -3,6 +3,7 @@ import Nav from './components/Nav';
 import Cover from './components/Cover';
 import About from './components/About';
 import Projects from './components/Projects';
+import ContactForm from './components/Contact';
 import Footer from './components/Footer';
 
 
@@ -13,6 +14,7 @@ function App() {
       <Cover />
       <About />
       <Projects />
+      <ContactForm />
       <Footer />
     </>
   );
