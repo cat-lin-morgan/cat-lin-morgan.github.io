@@ -29,7 +29,7 @@ function Nav({ currentPage, setCurrentPage }) {
                 <ul>
                     {
                         pages.map((page) => (
-                            <li className={getClassName(page.id)} onClick={
+                            <li key={page.id} className={getClassName(page.id)} onClick={
                                 () => {
                                     setCurrentPage(page.id);
                                     document.title = page.name;
