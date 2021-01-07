@@ -148,6 +148,11 @@ footer ul li a {
   display: flex;
   justify-content: center;
   width: 50vw;
+  margin-top: 3em;
+}
+
+.contacts {
+  margin: 3em;
 }
 
 .about-wrapper,
@@ -236,4 +241,31 @@ footer ul li a {
 .form {
   display: flex;
   margin: 2em;
+  flex-direction: column;
+}
+
+.contact-number {
+  margin: 5em;
+}
+
+.contact-number p {
+  /* line-height: 1.45; */
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+.contact-number a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact-number a:hover,
+footer a:hover {
+  color: #ff00b3;
+}
+
+.contact-number i {
+  font-size: 3em;
+  margin-top: 10px;
 }
