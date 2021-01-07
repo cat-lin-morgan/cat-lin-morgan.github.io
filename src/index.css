@@ -43,6 +43,7 @@ h1 {
   font-weight: lighter;
   font-size: 30px;
   letter-spacing: 0.02rem;
+  padding: 0 1em;
 }
 
 
@@ -56,6 +57,8 @@ header {
   flex-wrap: wrap; 
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  padding: 1em;
 }
 
 header nav ul {
@@ -63,10 +66,11 @@ header nav ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 1em;
 }
 
 header ul li {
-  padding: 0 5em;
+  padding: 0 3em;
 
 }
 
@@ -172,6 +176,7 @@ footer ul li a {
   transform: rotate(180deg);
   flex-direction: row-reverse;
   margin: 2em;
+  font-size: 2em;
 }
 
 .about-wrapper p {
@@ -183,7 +188,7 @@ footer ul li a {
   margin: 20px 15px;
   float: left;
   shape-outside: circle(50%);
-  width: 35%;
+  width: 45%;
 }
 
 .project-tiles {
@@ -193,11 +198,11 @@ footer ul li a {
 
 .project-tile-wrapper {
   display: flex;
-  margin-bottom: 1em;
+  margin-bottom: 3em;
 }
 
 .project-tiles img {
-  width: 100%;
+  width: 300px;
 }
 
 .project-tiles figcaption {
@@ -219,6 +224,12 @@ footer ul li a {
 
 .project-text {
   margin-left: 1em;
+  line-height: 1.25;
+
+}
+
+p {
+  letter-spacing: .1em;
 }
 
 .project-text i {
@@ -230,12 +241,17 @@ footer ul li a {
   text-decoration: none;
 }
 
+.project-text a:hover {
+  color: #ff00b3;
+}
+
 .contact-wrapper input,
 .contact-wrapper textarea {
   padding: 5px;
   border: 1px #000;
   border-radius: 5px;
   margin: 5px;
+  width: 250px;
 }
 
 .form {
