@@ -29,7 +29,6 @@ function Projects() {
             title: 'Cat Lin Portfolio',
             subtitle: 'HTML / CSS / JAVASCRIPT',
             description: 'My website, because I am really proud of it. Recently rebuilt with react. I did all of the graphic design and animations, a true example of my creative and engineering skills.',
-            github: '',
             fileName: 'catwebsite.png',
             alt: 'Screenshot of active Cat Lin Portfolio website.'
         },

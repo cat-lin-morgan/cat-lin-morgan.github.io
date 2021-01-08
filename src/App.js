@@ -3,6 +3,7 @@ import Nav, { pages } from './components/Nav';
 import Cover from './components/Cover';
 import About from './components/About';
 import Projects from './components/Projects';
+import Resume from './components/Resume';
 import ContactForm from './components/Contact';
 import Footer from './components/Footer';
 
@@ -22,7 +23,12 @@ function App() {
         </>
       )
       break;
-    case pages[2].id:
+      case pages[2].id:
+        currentPageEl = (
+          <Resume />
+        )
+        break;
+    case pages[3].id:
       currentPageEl = (
         <ContactForm />
       )

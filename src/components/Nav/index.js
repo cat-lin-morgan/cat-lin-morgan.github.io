@@ -10,6 +10,10 @@ export const pages = [
         name: 'My Work'
     },
     {
+        id: 'resume',
+        name: 'My Credentials'
+    },
+    {
         id: 'contacts',
         name: 'How To Reach Me'
     }

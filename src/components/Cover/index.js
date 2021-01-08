@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 
-const coverStart = 0.3;
+const coverStart = 50;
 const coverEnd = 600;
 
 function Cover() {

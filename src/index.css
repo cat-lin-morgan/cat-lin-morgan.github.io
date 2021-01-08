@@ -118,6 +118,14 @@ footer ul li a {
   text-decoration: none; 
 }
 
+footer ul li a span {
+  color: #ff00b3;
+}
+
+footer ul li a span:hover {
+  color: #fff;
+}
+
 /* cover  styling */
 .cover-empty {
   width: 100%;
@@ -148,20 +156,23 @@ footer ul li a {
 /* about, project, and constact form styling */
 .about,
 .projects,
-.contacts {
+.contacts,
+.resume {
   display: flex;
   justify-content: center;
   width: 50vw;
-  margin-top: 3em;
+  margin-top: 2em;
 }
 
-.contacts {
+.contacts,
+.resume {
   margin: 3em;
 }
 
 .about-wrapper,
 .projects-wrapper,
-.contact-wrapper {
+.contact-wrapper,
+.resume-wrapper {
   background-color: #000000;
   width: 100%;
   display: flex;
@@ -171,7 +182,8 @@ footer ul li a {
 
 .about-wrapper h2,
 .projects-wrapper h2,
-.contact-wrapper h2 {
+.contact-wrapper h2,
+.resume-wrapper h2 {
   writing-mode: vertical-lr;
   transform: rotate(180deg);
   flex-direction: row-reverse;
@@ -191,10 +203,24 @@ footer ul li a {
   width: 45%;
 }
 
+h3 {
+  font-size: 1.45em;
+}
+
 .project-tiles {
   position: relative;
   width: 60%;
 }
+
+/* .project-tiles figure{
+  opacity: 0;
+  transition: opacity 0.55s ease;
+  background-color: rgba(255, 0, 242, 0.5);
+}
+
+.project-tiles figure:hover {
+  opacity: 1;
+} */
 
 .project-tile-wrapper {
   display: flex;
@@ -228,7 +254,7 @@ footer ul li a {
 
 }
 
-p {
+.project-text p {
   letter-spacing: .1em;
 }
 
@@ -284,4 +310,22 @@ footer a:hover {
 .contact-number i {
   font-size: 3em;
   margin-top: 10px;
+}
+
+.resume-details {
+  margin: 2em;
+  display: flex;
+}
+
+.resume-details div {
+  margin-right: 1em;
+  width: 25em;
+}
+
+.resume-details div h3 {
+  margin: 15px 0;
+}
+
+.resume-details div ul {
+  list-style: none;
 }
