@@ -1,8 +1,8 @@
 import React from 'react';
-import ProjectTile from './ProjectTile';
+import Project from './Project';
 
 
-function Projects() {
+function Portfolio() {
 
     const applications = [
         {
@@ -70,7 +70,7 @@ function Projects() {
                 <div>
                 {
                     applications.map((application) => (
-                        <ProjectTile key={application.title} {...application} />
+                        <Project key={application.title} {...application} />
                     ))
                 }
                 </div>
@@ -79,4 +79,4 @@ function Projects() {
     )
 }
 
-export default Projects;
+export default Portfolio;

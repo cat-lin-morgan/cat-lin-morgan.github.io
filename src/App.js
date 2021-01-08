@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Nav, { pages } from './components/Nav';
 import Cover from './components/Cover';
 import About from './components/About';
-import Projects from './components/Projects';
+import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import ContactForm from './components/Contact';
 import Footer from './components/Footer';
@@ -18,9 +18,7 @@ function App() {
   switch(currentPage) {
     case pages[1].id: 
       currentPageEl = (
-        <>
-          <Projects />
-        </>
+        <Portfolio />
       )
       break;
       case pages[2].id:

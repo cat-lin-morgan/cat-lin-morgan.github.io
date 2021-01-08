@@ -1,6 +1,6 @@
 import React from 'react';
 
-function ProjectTile({website, github, title, subtitle, description, fileName, alt}) {
+function Project({website, github, title, subtitle, description, fileName, alt}) {
 
     return(
         <div className='project-tile-wrapper'>
@@ -25,4 +25,4 @@ function ProjectTile({website, github, title, subtitle, description, fileName, a
     )
 }
 
-export default ProjectTile;
+export default Project;

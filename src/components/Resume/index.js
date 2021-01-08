@@ -11,6 +11,7 @@ function Resume() {
                 </div>
                 <div className='resume-details'>
                     <div>
+                        <h3>MERN Stack</h3>
                         <p>
                             I enjoy playing with CSS as much as I enjoy creating APIs.
                         </p>
@@ -28,13 +29,31 @@ function Resume() {
                             <li>RESTful APIs</li>
                             <li>Node.js</li>
                             <li>Express.js</li>
-                            <li><span>Databases:</span> SQL, MySQL, MongoDB</li>
-                            <li><span>ORMs and ODMs:</span> Sequelize and Mongoose</li>
+                            <li>Databasing:
+                                <ul>
+                                    <li>SQL</li>
+                                    <li>MySQL</li>
+                                    <li>JawsDB for SaaS</li>
+                                    <li>MongoDB</li>
+                                    <li>MongoDB Atlas w/ AWS</li>
+                                </ul>
+                            </li>
+                            <li>ORMs and ODMs:
+                                <ul>
+                                    <li>Sequelize</li>
+                                    <li>Mongoose</li>
+                                </ul>
+                            </li>
                         </ul>
                     </div>
                     <div>
-                        <p>Ideally a link to my certifcate for the course will go here</p>
-                        <p>A link to my <a href='https://docs.google.com/document/d/1asTHNk8Z6WGT9Tjgc_RsqjCUr5Ns9dKNCx_IQ_S9UqI/edit?usp=sharing' rel="noreferrer">resume PDF</a> for download.</p>
+                        <p>
+                            // Ideally a link to my certifcate for the course will go here<br />
+                            UCLA Extension Certifcate for Full Stack Development <br />
+                            The 24 week course covered HTML, CSS, JavaScript(ES6 and ES7), Node, Express, Mongo, and React giving me a solid foundation of the MERN stack. 
+                        </p>
+                        <br /><br />
+                        <p>A link to my <a href='/resume.pdf' rel="noreferrer">resume PDF</a> for download.</p>
                     </div>
                 </div>
             </div>
