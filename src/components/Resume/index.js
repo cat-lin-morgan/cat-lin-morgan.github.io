@@ -16,7 +16,7 @@ function Resume() {
                             I enjoy playing with CSS as much as I enjoy creating APIs.
                         </p>
                         <h3>Frontend</h3>
-                        <ul>
+                        <ul className='skill-list'>
                             <li>HTML/HTML5</li>
                             <li>CSS/CSS3</li>
                             <li>JavaScript</li>
@@ -24,7 +24,7 @@ function Resume() {
                             <li><span>Component Libraries:</span> jQuery, Materialze, Bootstrap</li>
                         </ul>
                         <h3>Backend</h3>
-                        <ul>
+                        <ul className='skill-list'>
                             <li>Third Party APIs</li>
                             <li>RESTful APIs</li>
                             <li>Node.js</li>
@@ -53,7 +53,7 @@ function Resume() {
                             The 24 week course covered HTML, CSS, JavaScript(ES6 and ES7), Node, Express, Mongo, and React giving me a solid foundation of the MERN stack. 
                         </p>
                         <br /><br />
-                        <p>A link to my <a href='/resume.pdf' rel="noreferrer">resume PDF</a> for download.</p>
+                        <p>A link to my <a href='/resume.pdf' rel="noreferrer">resume <i className="far fa-file-pdf"></i></a> for download.</p>
                     </div>
                 </div>
             </div>

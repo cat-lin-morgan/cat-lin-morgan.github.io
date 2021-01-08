@@ -194,6 +194,7 @@ footer ul li a span:hover {
 .about-wrapper p {
   margin: 3em;
   font-weight: lighter;
+  line-height: 1.25em;;
 }
 
 .about-wrapper img {
@@ -338,6 +339,12 @@ footer a:hover {
   margin: 15px 0;
 }
 
-.resume-details div ul {
+.skill-list {
   list-style: none;
+  line-height: 1.25em;
+}
+
+.skill-list ul {
+  padding-left: 1em;
+  /* list-style: none; */
 }
