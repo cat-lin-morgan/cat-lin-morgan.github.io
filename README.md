@@ -1,5 +1,5 @@
-。・゜♡ ・ 。 。・゜ ♡   。・゜              ♡ ・ 。       。・゜ ♡        ♡   。・゜     ♡       .               .♡            ・ 。       。・゜
-___
+。・゜♡ ・ 。 。・゜ ♡   。・゜      ♡ ・ 。       。・゜ ♡        ♡   。・゜     ♡       .               .♡            ・ 。       。・゜。・゜♡ ・ 。 。・
+
 # Super Duper React Portfolio
 
 ## Description
@@ -53,5 +53,4 @@ Below are screenshots and gifs of the app installation.
 
 ___Thank you___
 
-___
-。・゜♡ ・ 。 。・゜ ♡   。・゜              ♡ ・ 。       。・゜ ♡        ♡   。・゜     ♡       .               .♡            ・ 。       。・゜
+。・゜♡ ・ 。 。・゜ ♡   。・゜    ♡ ・ 。       。・゜ ♡        ♡   。・゜     ♡       .               .♡            ・ 。       。・゜。・゜♡ ・ 。 。・
