@@ -1,8 +1,14 @@
-。・゜♡ ・ 。 。・゜ ♡   。・゜              ♡ ・ 。       。・゜ ♡        ♡   。・゜     ♡       .               .♡            ・ 。       。・゜
+。・゜♡ ・ 。 。・゜ ♡   。・゜      ♡ ・ 。       。・゜ ♡        ♡   。・゜     ♡       .               .♡            ・ 。       。・゜。・゜♡ ・ 。 。・
+
 # Super Duper React Portfolio
 
 ## Description
 This website represents my breath of work and creative tastes.
+<<<<<<< HEAD
+=======
+
+It is viewable on multiple screen sizes, including smaller screen sizes: 980px, 768px, 575px, and 400px!
+>>>>>>> 81958884a07525f130164d038693e224c7770c60
 
 It is viewable on multiple screen sizes, including smaller screen sizes: 980px, 768px, 575px, and 400px!
 Each size has it's own unique layout which flatters each screen size respectively.
@@ -48,4 +54,4 @@ Below are screenshots of the desktop and mobile website..
 
 ___Thank you___
 
-。・゜♡ ・ 。 。・゜ ♡   。・゜              ♡ ・ 。       。・゜ ♡        ♡   。・゜     ♡       .               .♡            ・ 。       。・゜
+。・゜♡ ・ 。 。・゜ ♡   。・゜    ♡ ・ 。       。・゜ ♡        ♡   。・゜     ♡       .               .♡            ・ 。       。・゜。・゜♡ ・ 。 。・
