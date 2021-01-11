@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+___
+# Super Duper React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
 
-In the project directory, you can run:
+**Other:** I decided to change some of the way my portfolio page is laidout versus the challenge example. There were things I felt worked better for me and what I wanted. The hover state on my image previews only have an external link hover so they can click anywhere and it will take them to the website they are previewing, while I decided I liked the link to each respective repo to the side.
 
-### `npm start`
+**To Note:** My resume is located at the bottom of My Credentials, as I wanted to lay out my skills and break down my education. My resume is located in two places for ease of access. In my footer and in the resume component.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![javascript badge](https://img.shields.io/badge/We%20Stan-Javascript-brightgreen)
+<!-- ![node badge](https://img.shields.io/badge/Node-Over%20Here-blueviolet) -->
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Table of Contents 
 
-### `npm test`
+* [License](#license)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Screenshot](#screenshot)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+[![license badge](https://img.shields.io/static/v1?label=license&message=MIT&color=important)](https://opensource.org/licenses/MIT)
+<!-- this has clickability and will go to the legalese -->
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Deployed Application
+[Portfolio active here](https://dry-plains-21875.herokuapp.com/), on GitHub pages.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Don't forget to star it.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Main Contributor
 
-### `npm run eject`
+Code written by:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Cat Lin (Caitlin) Morgan 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[GitHub](https://github.com/cat-lin-morgan/) - plummorgan@gmail.com
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Screenshot 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Below are screenshots and gifs of the app installation.
 
-## Learn More
+<!-- <img src='./installing.gif' alt='Screenshot of PWA installation' />  -->
+<!-- <img src='./reloadedapplication.gif' alt='Screenshot of application reloaded' />  -->
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- <img src='./offlinescreenshot.png' alt='Screenshot of application offline and downloaded' /> -->
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+___Thank you___
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+___

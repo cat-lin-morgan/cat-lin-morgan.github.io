@@ -208,21 +208,6 @@ h3 {
   font-size: 1.45em;
 }
 
-/* .project-tiles {
-  position: relative;
-  width: 60%;
-} */
-
-/* .project-tiles figure{
-  opacity: 0;
-  transition: opacity 0.55s ease;
-  background-color: rgba(255, 0, 242, 0.5);
-}
-
-.project-tiles figure:hover {
-  opacity: 1;
-} */
-
 .project-tile-wrapper {
   display: flex;
   margin-bottom: 3em;
@@ -347,4 +332,199 @@ footer a:hover {
 .skill-list ul {
   padding-left: 1em;
   /* list-style: none; */
+}
+
+.resume-side {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.resume-p {
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 1em;
+}
+
+.resume-pdf {
+  font-size: 7em;
+  font-weight: lighter;
+  color: #fff;
+  margin-top: 15px;
+}
+
+.resume-pdf:hover {
+  color: #ff00b3;
+}
+
+@media screen and (max-width: 980px) {
+
+  .about, .projects, .contacts, .resume {
+    width: 80vw;
+  }
+
+  header {
+    flex-direction: column;
+  }
+
+  .cover-empty {
+    height: 450px;
+  }
+
+  .resume-details {
+    flex-direction: column;
+}
+
+  .resume-p {
+    margin-top: 1em;
+  }
+
+  header ul li {
+    padding: 0 2em;
+  }
+
+  footer ul {
+    width: 0;
+  }
+
+  footer ul li {
+    padding: 10px;
+  }
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+  header ul li {
+    padding: 0 1em;
+  }
+  
+  footer {
+    width: 600px;
+  }
+
+  .project-tiles {
+    margin-bottom: 1em;
+  }
+
+  .project-tile-wrapper {
+    flex-direction: column;
+  }
+
+  .pdf-p {
+    margin-top: 1em;
+  }
+}
+
+@media screen and (max-width: 575px) {
+
+  .cover {
+    background-size: contain;
+  }
+
+  .cover-empty {
+    height: 350px;
+  }
+
+  footer {
+    width: 550px;
+  }
+
+  footer ul {
+    width: 45%;
+}
+
+  .about, .projects, .contacts, .resume {
+  flex-direction: column;
+  width: 80%;
+  margin-left: 1em;
+  align-items: center;
+  }
+
+  .about-wrapper h2, .projects-wrapper h2, .contact-wrapper h2, .resume-wrapper h2 {
+    writing-mode: initial;
+    transform: initial;
+    margin: 15px;
+  }
+
+  .about-wrapper img {
+    float: none;
+    shape-outside: none;
+    width: 60%;
+  }
+
+  .about-wrapper p {
+    margin: 1em;
+  }
+
+  .about-me-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-number {
+    margin: 2em;
+  }
+
+  .form {
+    order: 3;
+  }
+
+  .form div {
+    font-size: 1.25em;
+  }
+}
+
+@media screen and (max-width: 400px) {
+
+  h3 {
+    font-size: 1.25em;
+  }
+
+  header ul li {
+    text-align: center;
+  }
+
+  footer {
+    background-image: none;
+    width: initial;
+    padding: 1em;
+  }
+
+  footer ul {
+    width: initial;
+  }
+
+  footer ul li {
+    padding: 10px;
+  }
+
+  .cover-empty {
+    height: 250px;
+  }
+
+  .contact-number {
+    margin: 1em;
+  }
+
+  .resume {
+    margin: 0;
+  }
+
+  .resume-details {
+    margin: 0;
+  }
+
+  .resume-details div {
+    margin: 2px;
+    width: 100%;
+  }
+
+  .resume-p {
+    font-size: 25px;
+  }
+
 }

@@ -1,6 +1,5 @@
 import React from 'react';
 import aboutImage from '../../assets/images/raincat.png';
-import trashImage from '../../assets/images/selfportrait.png';
 
 
 function About() {
@@ -12,7 +11,7 @@ function About() {
           <h2 className="section-title">About Me</h2>
         </div>
 
-        <div>
+        <div className='about-me-p'>
           <img 
             src={aboutImage}
             alt='Cat amongst sits among rainbows and smiley faces.'

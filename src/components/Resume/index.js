@@ -11,7 +11,6 @@ function Resume() {
                 </div>
                 <div className='resume-details'>
                     <div>
-                        <h3>MERN Stack</h3>
                         <p>
                             I enjoy playing with CSS as much as I enjoy creating APIs.
                         </p>
@@ -46,14 +45,19 @@ function Resume() {
                             </li>
                         </ul>
                     </div>
-                    <div>
-                        <p>
-                            // Ideally a link to my certifcate for the course will go here<br />
-                            UCLA Extension Certifcate for Full Stack Development <br />
-                            The 24 week course covered HTML, CSS, JavaScript(ES6 and ES7), Node, Express, Mongo, and React giving me a solid foundation of the MERN stack. 
+                    <div className='resume-side'>
+                        <p className='resume-p'>
+                            UCLA Extension Certifcate for Full Stack Development
                         </p>
-                        <br /><br />
-                        <p>A link to my <a href='/resume.pdf' rel="noreferrer">resume <i className="far fa-file-pdf"></i></a> for download.</p>
+                        <p>
+                            <img/>
+                            The 24 week course covered HTML, CSS, JavaScript(ES6 and ES7), Node, Express, Mongo, and React giving me a solid foundation of the MERN stack. <br />
+                            // Once I graduate I'll add a link to my Certifcate.
+                        </p>
+                        <p className='pdf-p'>
+                            Click the icon below to download a PDF of my resume. <br/>
+                            <a href='/resume.pdf' rel="noreferrer"><i className="far fa-file-pdf resume-pdf"></i></a>
+                        </p>
                     </div>
                 </div>
             </div>

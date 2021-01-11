@@ -15,7 +15,7 @@ export const pages = [
     },
     {
         id: 'contacts',
-        name: 'How To Reach Me'
+        name: 'Contact Me'
     }
 ];
 
