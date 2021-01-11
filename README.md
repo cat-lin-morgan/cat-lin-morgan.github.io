@@ -1,6 +1,6 @@
 。・゜♡ ・ 。 。・゜ ♡   。・゜      ♡ ・ 。       。・゜ ♡        ♡   。・゜     ♡       .               .♡            ・ 。       。・゜。・゜♡ ・ 。 。・
 
-# Super Duper React Portfolio
+# Super Duper React Portfolio ฅ^•ﻌ•^ฅ
 
 ## Description
 This website represents my breath of work and creative tastes.
@@ -14,6 +14,8 @@ Each size has it's own unique layout which flatters each screen size respectivel
 
 ![javascript badge](https://img.shields.io/badge/We%20Stan-Javascript-brightgreen)
 ![node badge](https://img.shields.io/badge/Node-Over%20Here-blueviolet)
+![css badge](https://img.shields.io/badge/Sailor-CSS-ff69b4)
+![React badge](https://img.shields.io/badge/she%20doth-REACT-critical)
 
 ## Table of Contents 
 
