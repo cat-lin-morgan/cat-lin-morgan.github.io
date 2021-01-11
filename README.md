@@ -4,6 +4,7 @@
 
 ## Description
 This website represents my breath of work and creative tastes.
+
 It is viewable on multiple screen sizes, including smaller screen sizes: 980px, 768px, 575px, and 400px!
 
 Each size has it's own unique layout which flatters each screen size respectively. 
