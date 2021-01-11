@@ -1,8 +1,12 @@
+。・゜♡ ・ 。 。・゜ ♡   。・゜              ♡ ・ 。       。・゜ ♡        ♡   。・゜     ♡       .               .♡            ・ 。       。・゜
 ___
 # Super Duper React Portfolio
 
 ## Description
+This website represents my breath of work and creative tastes.
+It is viewable on multiple screen sizes, including smaller screen sizes: 980px, 768px, 575px, and 400px!
 
+Each size has it's own unique layout which flatters each screen size respectively. 
 
 **Other:** I decided to change some of the way my portfolio page is laidout versus the challenge example. There were things I felt worked better for me and what I wanted. The hover state on my image previews only have an external link hover so they can click anywhere and it will take them to the website they are previewing, while I decided I liked the link to each respective repo to the side.
 
@@ -50,3 +54,4 @@ Below are screenshots and gifs of the app installation.
 ___Thank you___
 
 ___
+。・゜♡ ・ 。 。・゜ ♡   。・゜              ♡ ・ 。       。・゜ ♡        ♡   。・゜     ♡       .               .♡            ・ 。       。・゜

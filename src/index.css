@@ -289,9 +289,7 @@ figure {
 }
 
 .contact-number p {
-  /* line-height: 1.45; */
   display: flex;
-  /* justify-content: center; */
   flex-direction: column;
 }
 
@@ -415,6 +413,15 @@ footer a:hover {
   .pdf-p {
     margin-top: 1em;
   }
+
+  .project-tiles figcaption {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.25);
+    color: rgb(255, 255, 255, 0.80);
+    font-size: 4rem;
+  }
+
+
 }
 
 @media screen and (max-width: 575px) {
@@ -526,5 +533,6 @@ footer a:hover {
   .resume-p {
     font-size: 25px;
   }
+
 
 }
