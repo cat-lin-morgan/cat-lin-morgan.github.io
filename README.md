@@ -2,6 +2,9 @@
 
 # Super Duper React Portfolio ฅ^•ﻌ•^ฅ
 
+[![license badge](https://img.shields.io/static/v1?label=license&message=MIT&color=important)](https://opensource.org/licenses/MIT)
+<!-- this has clickability and will go to the legalese -->
+
 ## Description
 This website represents my breath of work and creative tastes.
 
@@ -17,16 +20,6 @@ Each size has it's own unique layout which flatters each screen size respectivel
 ![css badge](https://img.shields.io/badge/Sailor-CSS-ff69b4)
 ![React badge](https://img.shields.io/badge/she%20doth-REACT-critical)
 
-## Table of Contents 
-
-* [License](#license)
-* [Installation](#installation)
-* [Usage](#usage)
-* [Screenshot](#screenshot)
-
-
-[![license badge](https://img.shields.io/static/v1?label=license&message=MIT&color=important)](https://opensource.org/licenses/MIT)
-<!-- this has clickability and will go to the legalese -->
 
 ## Deployed Application
 [Portfolio active here](https://cat-lin-morgan.github.io/), on GitHub pages.
