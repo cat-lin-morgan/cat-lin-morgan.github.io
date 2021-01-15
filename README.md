@@ -16,7 +16,6 @@ Each size has it's own unique layout which flatters each screen size respectivel
 **To Note:** My resume is located at the bottom of My Credentials, as I wanted to lay out my skills and break down my education. My resume is located in two places for ease of access. In my footer and in the resume component.
 
 ![javascript badge](https://img.shields.io/badge/We%20Stan-Javascript-brightgreen)
-![node badge](https://img.shields.io/badge/Node-Over%20Here-blueviolet)
 ![css badge](https://img.shields.io/badge/Sailor-CSS-ff69b4)
 ![React badge](https://img.shields.io/badge/she%20doth-REACT-critical)
 
