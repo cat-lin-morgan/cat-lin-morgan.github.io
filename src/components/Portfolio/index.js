@@ -6,6 +6,15 @@ function Portfolio() {
 
     const applications = [
         {
+            website: 'https://color-theory.herokuapp.com/',
+            github: 'https://github.com/reynolkb/color-theory-1.0',
+            title: 'Color Theory',
+            subtitle: 'MERN Stack',
+            description: 'Lead Front End Designer and Front End Engineer. Color Theory was an idea I had for quite some time. For myself it was an exploration of React and CSS and really helped me understand both in ways I had not before.',
+            fileName: 'colortheory.png',
+            alt: 'Screenshot of the active Color Theory Website.'
+        },
+        {
             website: 'https://sheltered-eyrie-92140.herokuapp.com/',
             github: 'https://github.com/ginomaglaqueucla/get-hitched',
             title: 'Get Hitched!',

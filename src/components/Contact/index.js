@@ -47,7 +47,7 @@ function ContactForm() {
                 <div>
                     <h2 className='section-title'>Contact Me</h2>
                 </div>
-                <div className='form'>
+                {/* <div className='form'>
                     <form onSubmit={handleSubmit}>
                         <div>
                             <label htmlFor='name'>Name:</label><br />
@@ -70,7 +70,7 @@ function ContactForm() {
                             </div>
                         )
                     }
-                </div>
+                </div> */}
                 
                 <div className='contact-number'>
                     <p>
