@@ -1,45 +1,46 @@
-import React, { useState } from 'react';
-import { validateEmail } from '../../utils/helpers';
+import React from 'react';
+// import { useState } from 'react';
+// import { validateEmail } from '../../utils/helpers';
 
 function ContactForm() {
 
-    const [ contactState, setContactState ] = useState(
-        {
-            name: '',
-            email: '',
-            message: ''
-        }
-    );
+    // const [ contactState, setContactState ] = useState(
+    //     {
+    //         name: '',
+    //         email: '',
+    //         message: ''
+    //     }
+    // );
 
-    const { name, email, message } = contactState;
+    // const { name, email, message } = contactState;
 
-    const [ errorMessage, setErrorMessage ] = useState('');
+    // const [ errorMessage, setErrorMessage ] = useState('');
 
-    function handleChange(e) {
-        if (e.target.name === 'email') {
-            const isValid = validateEmail(e.target.value);
-            if (!isValid) {
-                setErrorMessage('An email is required to send me a message!')
-            } else {
-                setErrorMessage('');
-            }
-        } else {
-            if (!e.target.value.length) {
-                setErrorMessage(`${e.target.name} is required stuff!`)
-            } else {
-                setErrorMessage('');
-            }
-        }
+    // function handleChange(e) {
+    //     if (e.target.name === 'email') {
+    //         const isValid = validateEmail(e.target.value);
+    //         if (!isValid) {
+    //             setErrorMessage('An email is required to send me a message!')
+    //         } else {
+    //             setErrorMessage('');
+    //         }
+    //     } else {
+    //         if (!e.target.value.length) {
+    //             setErrorMessage(`${e.target.name} is required stuff!`)
+    //         } else {
+    //             setErrorMessage('');
+    //         }
+    //     }
 
-        if (!errorMessage) {
-            setContactState({ ...contactState, [e.target.name]: e.target.value })
-        }
+    //     if (!errorMessage) {
+    //         setContactState({ ...contactState, [e.target.name]: e.target.value })
+    //     }
 
-    }
+    // }
 
-    function handleSubmit(e) {
-        e.preventDefault();
-    }
+    // function handleSubmit(e) {
+    //     e.preventDefault();
+    // }
     
     return(
         <section className='contact-wrapper'>
@@ -72,7 +73,26 @@ function ContactForm() {
                     }
                 </div> */}
                 
-                <div className='contact-number'>
+                <div className='contact-div'>
+                    <div className='social-media'>
+                        <ul>
+                            <li>
+                                <a href='https://github.com/cat-lin-morgan' target="_blank" rel="noreferrer">
+                                    <i className="fab fa-github social-i"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href='https://www.linkedin.com/in/caitlin-morgan-7818901b2/' target="_blank" rel="noreferrer">
+                                    <i className="fab fa-linkedin social-i"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href='https://www.instagram.com/cattongues.png' target="_blank" rel="noreferrer">
+                                    <i className="fab fa-instagram social-i"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                     <p>
                         Email :<a className='hover' href="mailto:plummorgan@gmail.com"> plummorgan@gmail.com</a><br />
                         Phone # :<a className='hover' href="tel:323-713-6089"> (323) 713 - 6089</a><br />

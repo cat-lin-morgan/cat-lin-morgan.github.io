@@ -40,8 +40,7 @@ Below are screenshots of the desktop and mobile website..
 <img src='src/assets/images/reactmobile.png' alt='Screenshot of mobile' /> 
 <img src='src/assets/images/reactdesktop.png' alt='Screenshot of desktop' /> 
 
-
-。・゜♡ ・ 。 。・゜ ♡   。・゜    ♡ ・ 。       。・゜ ♡        ♡   。・゜     ♡       .               .♡            ・ 。       。・゜。・゜♡ ・ 。 。・
+。・゜♡ ・ 。 。・゜ ♡   。・゜    ♡ ・ 。       。・゜ ♡        ♡   。・゜     ♡       .     .♡     ♡ ・ 。 。・       ・ 。       。・゜。・゜
 
 ___Thank you___
 
