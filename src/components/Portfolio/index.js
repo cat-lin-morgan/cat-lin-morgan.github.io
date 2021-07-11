@@ -15,6 +15,15 @@ function Portfolio() {
             alt: 'Screenshot of the active Color Theory Website.'
         },
         {
+            website: 'https://www.sagesherlock.com/',
+            github: 'https://www.sagesherlock.com/',
+            title: '☙Sage Sherlock',
+            subtitle: 'WIX WEBSITE EDITOR',
+            description: 'Client wanted a simple static website. I was able to design a simple website for her that told her clients who she was and what she was able to offer them.',
+            fileName: 'sagesherlock.png',
+            alt: 'Screenshot of the active Sage Sherlock website.'
+        },
+        {
             website: 'https://sheltered-eyrie-92140.herokuapp.com/',
             github: 'https://github.com/ginomaglaqueucla/get-hitched',
             title: '☙Get Hitched!',

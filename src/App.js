@@ -3,7 +3,7 @@ import Nav, { pages } from './components/Nav';
 import Cover from './components/Cover';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
-import Resume from './components/Resume';
+import Credentials from './components/Credentials';
 import ContactForm from './components/Contact';
 import Footer from './components/Footer';
 
@@ -23,7 +23,7 @@ function App() {
       break;
       case pages[2].id:
         currentPageEl = (
-          <Resume />
+          <Credentials />
         )
         break;
     case pages[3].id:
@@ -39,6 +39,8 @@ function App() {
         </>
       )
   }
+
+  
 
   return (
     <>
