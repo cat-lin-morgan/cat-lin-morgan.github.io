@@ -1,10 +1,5 @@
 import React, { useState } from 'react';
 import Nav, { pages } from './components/Nav';
-import Cover from './components/Cover';
-import About from './components/About';
-import Portfolio from './components/Portfolio';
-import Credentials from './components/Credentials';
-import ContactForm from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
@@ -55,7 +50,6 @@ function App() {
 //         currentPage={currentPage}
 //         setCurrentPage={setCurrentPage}
 //       />
-//       <Cover />
 //       {currentPageEl}
 //       <Footer />
 //     </>
