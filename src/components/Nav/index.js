@@ -3,19 +3,19 @@ import React from 'react';
 export const pages = [
     {
         id: 'homepage',
-        name: 'About Me'
+        name: 'Home'
+    },
+    {
+        id: 'about',
+        name: 'About'
     },
     {
         id: 'projects',
-        name: 'My Work'
+        name: 'Projects'
     },
     {
         id: 'resume',
-        name: 'My Credentials'
-    },
-    {
-        id: 'contacts',
-        name: 'Contact Me'
+        name: 'Resume'
     }
 ];
 
@@ -28,7 +28,7 @@ function Nav({ currentPage, setCurrentPage }) {
 
     return(
         <header>
-            <h1>Cat Lin Morgan</h1>
+            <h1>this is the nav header :)</h1>
             <nav>
                 <ul>
                     {

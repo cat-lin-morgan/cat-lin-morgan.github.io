@@ -1,59 +1,56 @@
 import React, { useState } from 'react';
 import Nav, { pages } from './components/Nav';
 import Footer from './components/Footer';
+import Home from './pages/Home';
+import About from './pages/About';
+import Projects from './pages/Projects';
+import Resume from './pages/Resume';
+
+
 
 function App() {
-  return (
-    <>
-    Meeow, there is nothing here right now, but it's coming soon~~~
-    </>
-  )
-}
 
+  const [ currentPage, setCurrentPage ] = useState('homepage');
 
-// function App() {
+  let currentPageEl
 
-//   const [ currentPage, setCurrentPage ] = useState('homepage');
-
-//   let currentPageEl
-
-//   switch(currentPage) {
-//     case pages[1].id: 
-//       currentPageEl = (
-//         <Portfolio />
-//       )
-//       break;
-//       case pages[2].id:
-//         currentPageEl = (
-//           <Credentials />
-//         )
-//         break;
-//     case pages[3].id:
-//       currentPageEl = (
-//         <ContactForm />
-//       )
-//       break;
-//     case pages[0].id:
-//     default: 
-//       currentPageEl = (
-//         <>
-//           <About />
-//         </>
-//       )
-//   }
+  switch(currentPage) {
+    case pages[1].id: 
+      currentPageEl = (
+        <About />
+        )
+        break;
+    case pages[2].id:
+      currentPageEl = (
+        <Projects />
+    )
+        break;
+    case pages[3].id:
+      currentPageEl = (
+        <Resume />
+      )
+      break;
+    case pages[0].id:
+    default: 
+      currentPageEl = (
+        <>
+          <Home />
+        </>
+      )
+  }
 
   
 
-//   return (
-//     <>
-//       <Nav 
-//         currentPage={currentPage}
-//         setCurrentPage={setCurrentPage}
-//       />
-//       {currentPageEl}
-//       <Footer />
-//     </>
-//   );
-// }
+  return (
+    <>
+      <Nav 
+        currentPage={currentPage}
+        setCurrentPage={setCurrentPage}
+      />
+      {currentPageEl}
+      <Footer />
+    </>
+  );
+}
 
 export default App;
