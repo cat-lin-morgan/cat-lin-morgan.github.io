@@ -42,14 +42,20 @@ function App() {
   
 
   return (
-    <>
-      <Nav 
-        currentPage={currentPage}
-        setCurrentPage={setCurrentPage}
-      />
-      {currentPageEl}
-      <Footer />
-    </>
+      <main>
+        <div class="title-bar">
+          <h1>header</h1> 
+          <div>Esc</div>
+        </div>
+        <div class="browser-window">
+          <Nav  
+            currentPage={currentPage}
+            setCurrentPage={setCurrentPage}
+          />
+          {currentPageEl}
+        </div>
+        <Footer />
+      </main>
   );
 }
 
