@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Escape from './components/Escape';
+// import Escape from './components/Escape';
 import Nav, { pages } from './components/Nav';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -46,7 +46,7 @@ function App() {
       <main>
         <div class="title-bar">
           <h1>Cat!</h1> 
-          <Escape />
+          {/* <Escape /> */}
           {/* replace with an esc icon  can do window prompt alert to have them add to favorites */}
         </div>
         <div class="browser-window">
