@@ -1,4 +1,5 @@
 import React from 'react';
+import navIcon from '../../assets/images/icons/dummy-icon-small.png';
 
 export const pages = [
     {
@@ -20,6 +21,8 @@ export const pages = [
 ];
 
 
+
+
 function Nav({ currentPage, setCurrentPage }) {
 
     function getClassName(page) {
@@ -28,7 +31,7 @@ function Nav({ currentPage, setCurrentPage }) {
 
     return(
         <header>
-            <h1>this is the nav header :)</h1>
+            <h2>nav</h2>
             <nav>
                 <ul>
                     {
@@ -45,6 +48,11 @@ function Nav({ currentPage, setCurrentPage }) {
                     }
                 </ul>
             </nav>
+            <img 
+                class= 'cat-icon'
+                src= {navIcon} 
+                alt= 'Cat Icon winking and making peace sign with halo on cat head.'
+            />
         </header>
     )
 }

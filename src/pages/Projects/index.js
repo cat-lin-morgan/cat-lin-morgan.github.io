@@ -7,9 +7,21 @@ import React from 'react';
 
 function Projects() {
     return (
-        <>
-            <p>this is the projects page</p>
-        </>
+        <section>
+            <div>
+                this will be a general page description
+            </div>
+            <div>
+                carasel eventually probably from jquery
+                <div>
+                    blurb for project
+                </div>
+                <div>
+                    image to go side by side the blurb
+                </div>
+            </div>
+
+        </section>
     )
 }
  

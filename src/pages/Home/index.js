@@ -1,10 +1,16 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 function Home() {
     return (
-        <>
-            <p>this is the home page</p>
-        </>
+        <section>
+            <div>
+                intro to self
+            </div>
+
+            <div>
+                possible splash page
+            </div>
+        </section>
     )
 }
 
