@@ -106,10 +106,12 @@ header nav ul {
 
 header nav ul li {
   padding: 5px;
+  cursor: pointer;
 }
 
 header img {
   margin-top: 5px;
+  cursor: pointer;
 }
 
 /* Footer component  */
@@ -129,4 +131,10 @@ footer ul {
 footer ul li a {
   text-decoration: none;
   color: #000;
+}
+
+/* About Me Page */
+
+.cat-face {
+  max-width: 50%;
 }
