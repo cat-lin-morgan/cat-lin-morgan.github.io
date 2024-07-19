@@ -1,5 +1,7 @@
 import React from "react";
 import aboutImageOne from "../../assets/images/my_face.png";
+import aboutImageTwo from "../../assets/images/cat_bod.png";
+
 
 
 function About() {
@@ -22,7 +24,7 @@ function About() {
           </p>
         </div>
         <div class="second-about-paragraph">
-          {/* <img class="cat-bod" src={aboutImageTwo} alt="Cat at the Ren Faire" /> */}
+          <img class="cat-bod" src={aboutImageTwo} alt="Cat at the Ren Faire" />
           <p>
             "I originally attended Los Angeles Community College. I was here I took my formal art and design classes. 
             I really enjoyed my Illustration and Printmaking classes.

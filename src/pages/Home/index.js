@@ -10,6 +10,11 @@ function Home() {
             <div>
                 possible splash page
             </div>
+
+            <div>
+                instagram plug ins
+                
+            </div>
         </section>
     )
 }

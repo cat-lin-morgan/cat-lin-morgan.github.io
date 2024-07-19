@@ -133,7 +133,7 @@ footer {
   align-items: flex-end;
   width: 100%;
   height: auto;
-  padding: 1em;
+  padding: 0 0 1em 0;
   position: relative;
   clear: both;
 }
@@ -159,8 +159,20 @@ footer ul li a {
   margin-right: 20px;
 }
 
+.cat-bod {
+  max-width: 350px;
+  float: right;
+  -webkit-shape-outside: circle(50%);
+  shape-outside: circle(50%);
+  margin-left: 20px;
+}
+
 .about-section {
   overflow: scroll;
+}
+
+.first-about-paragraph {
+  margin-bottom: 6%;
 }
 
 @media screen and (max-width: 980px) {
