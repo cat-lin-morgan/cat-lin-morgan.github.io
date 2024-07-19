@@ -41,7 +41,7 @@ html {
 }
 
 section {
-  margin-left: 10px;
+  margin-left: 10%;
   width: 100%;
   /* display: flex; */
   /* align-items: flex-end; */
@@ -89,10 +89,10 @@ h1 {
 
 .browser-window {
   display: flex;
-  flex: 0 1;
+  flex: 1;
   flex-direction: row;
   padding: 25px;
-  width: 60vw;
+  width: 100%;
   height: 50vh;
 }
 
@@ -101,7 +101,7 @@ header {
   display: flex;
   /* justify-content: center; */
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
 }
 
@@ -129,8 +129,15 @@ header img {
 
 footer {
   display: flex;
+  /* flex-wrap: wrap; */
   justify-content: center;
-  padding: 5px;
+  align-items: flex-end;
+  width: 100%;
+  height: auto;
+  padding: 1em;
+  /* z-index: 2; */
+  position: relative;
+  clear: both;
 }
 
 footer ul {
@@ -151,6 +158,7 @@ footer ul li a {
   float: left;
   -webkit-shape-outside: circle(50%);
   shape-outside: circle(50%);
+  margin-right: 20px;
 }
 
 @media screen and (max-width: 980px) {
