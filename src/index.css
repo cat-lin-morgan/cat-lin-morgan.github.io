@@ -53,10 +53,10 @@ main {
   margin: 2%;
   padding: 3px;
   border: 1px solid #000;
-  /* display: flex; */
+  display: flex;
   flex-direction: column;
   width: 75vw;
-  height: 75vh;
+  height: auto;
 }
 
 h1 {
@@ -94,12 +94,12 @@ h1 {
   padding: 25px;
   width: 100%;
   height: 50vh;
+  box-sizing: border-box;
 }
 
 /* Nav component  */
 header {
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
@@ -129,13 +129,11 @@ header img {
 
 footer {
   display: flex;
-  /* flex-wrap: wrap; */
   justify-content: center;
   align-items: flex-end;
   width: 100%;
   height: auto;
   padding: 1em;
-  /* z-index: 2; */
   position: relative;
   clear: both;
 }
@@ -161,6 +159,10 @@ footer ul li a {
   margin-right: 20px;
 }
 
+.about-section {
+  overflow: scroll;
+}
+
 @media screen and (max-width: 980px) {
   header {
     display: flex;
@@ -177,10 +179,22 @@ footer ul li a {
     max-width: 150px;
   }
 
+  main {
+    width: 95vw;
+  }
+
   .browser-window {
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     width: 100%;
+    /* height: auto; */
+    max-height: 80vh;
+    padding: 10px;
+    overflow: auto;
+  }
+
+  section {
+    margin-left: 0;
   }
 }

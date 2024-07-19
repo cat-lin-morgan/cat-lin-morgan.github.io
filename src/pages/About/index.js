@@ -4,7 +4,7 @@ import aboutImageOne from "../../assets/images/my_face.png";
 
 function About() {
   return (
-    <section>
+    <section className="about-section">
       <div className="about-page-wrapper">
         <div class="first-about-paragraph">
           <img class="cat-face" src={aboutImageOne} alt="Cat's face smiling." />
