@@ -43,6 +43,8 @@ html {
 section {
   margin-left: 10px;
   width: 100%;
+  /* display: flex; */
+  /* align-items: flex-end; */
 }
 
 /* App.js */
@@ -51,8 +53,10 @@ main {
   margin: 2%;
   padding: 3px;
   border: 1px solid #000;
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
+  width: 75vw;
+  height: 75vh;
 }
 
 h1 {
@@ -93,6 +97,13 @@ h1 {
 }
 
 /* Nav component  */
+header {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
 header h2 {
   font-family: "hybrid-bold";
@@ -136,5 +147,32 @@ footer ul li a {
 /* About Me Page */
 
 .cat-face {
-  max-width: 50%;
+  max-width: 350px;
+  float: left;
+  -webkit-shape-outside: circle(50%);
+  shape-outside: circle(50%);
+}
+
+@media screen and (max-width: 980px) {
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .cat-face {
+    max-width: 150px;
+  }
+
+  .browser-window {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
 }
