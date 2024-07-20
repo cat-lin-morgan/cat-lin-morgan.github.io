@@ -127,7 +127,7 @@ footer ul li a span:hover {
 
 /* about, project, and constact form styling */
 .about,
-.projects,
+.Portfolio,
 .contacts,
 .credentials {
   display: flex;
@@ -142,7 +142,7 @@ footer ul li a span:hover {
 }
 
 .about-wrapper,
-.projects-wrapper,
+.Portfolio-wrapper,
 .contact-wrapper,
 .credentials-wrapper {
   background-color: #000000;
@@ -153,7 +153,7 @@ footer ul li a span:hover {
 }
 
 .about-wrapper h2,
-.projects-wrapper h2,
+.Portfolio-wrapper h2,
 .contact-wrapper h2,
 .credentials-wrapper h2 {
   writing-mode: vertical-lr;
@@ -417,7 +417,7 @@ i.social-i {
 
 @media screen and (max-width: 980px) {
 
-  .about, .projects, .contacts, .credentials {
+  .about, .Portfolio, .contacts, .credentials {
     width: 80vw;
   }
 
@@ -520,14 +520,14 @@ i.social-i {
     width: 45%;
 }
 
-  .about, .projects, .contacts, .credentials {
+  .about, .Portfolio, .contacts, .credentials {
   flex-direction: column;
   width: 80%;
   margin-left: 1em;
   align-items: center;
   }
 
-  .about-wrapper h2, .projects-wrapper h2, .contact-wrapper h2, .credentials-wrapper h2 {
+  .about-wrapper h2, .Portfolio-wrapper h2, .contact-wrapper h2, .credentials-wrapper h2 {
     writing-mode: initial;
     transform: initial;
     margin: 15px;

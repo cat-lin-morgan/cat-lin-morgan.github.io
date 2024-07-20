@@ -43,7 +43,7 @@ html {
 section {
   margin-left: 10%;
   width: 100%;
-  /* display: flex; */
+  display: flex;
   /* align-items: flex-end; */
 }
 
@@ -89,7 +89,11 @@ h1 {
 
 .browser-window {
   display: flex;
-  flex: 1;
+  /* flex: 1; */
+  /* flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;  */
+  /* flex: 1 1 auto;  */
   flex-direction: row;
   padding: 25px;
   width: 100%;
@@ -149,6 +153,16 @@ footer ul li a {
   color: #000;
 }
 
+/* Home Page */
+
+.home-section {
+  flex-direction: column;
+}
+
+.banner-image {
+  width: 100%;
+}
+
 /* About Me Page */
 
 .cat-face {
@@ -191,6 +205,10 @@ footer ul li a {
     max-width: 150px;
   }
 
+  .cat-bod {
+    max-width: 150px;
+  }
+
   main {
     width: 95vw;
   }
@@ -208,5 +226,6 @@ footer ul li a {
 
   section {
     margin-left: 0;
+    overflow: scroll;
   }
 }

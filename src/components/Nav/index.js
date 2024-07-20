@@ -11,8 +11,8 @@ export const pages = [
         name: 'About'
     },
     {
-        id: 'projects',
-        name: 'Projects'
+        id: 'Portfolio',
+        name: 'Portfolio'
     },
     {
         id: 'resume',

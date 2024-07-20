@@ -4,7 +4,7 @@ import Nav, { pages } from './components/Nav';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
-import Projects from './pages/Projects';
+import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 
 
@@ -23,7 +23,7 @@ function App() {
         break;
     case pages[2].id:
       currentPageEl = (
-        <Projects />
+        <Portfolio />
     )
         break;
     case pages[3].id:
