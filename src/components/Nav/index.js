@@ -17,6 +17,10 @@ export const pages = [
     {
         id: 'resume',
         name: 'Resume'
+    },
+    {
+        id: 'contacts',
+        name: 'Contacts'
     }
 ];
 

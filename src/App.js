@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
+import Contacts from './pages/Contacts';
 
 
 
@@ -29,6 +30,11 @@ function App() {
     case pages[3].id:
       currentPageEl = (
         <Resume />
+      )
+      break;
+    case pages[4].id:
+      currentPageEl = (
+        <Contacts />
       )
       break;
     case pages[0].id:

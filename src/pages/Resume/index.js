@@ -4,10 +4,11 @@ function Resume() {
     return (
         <section>
             <div>
-                the resume here
+                <h3>Resume</h3>
+                <p>Below you'll find a resume detailing my latest and most relevent employment. There are other jobs I've held and if you'd like those details, I'm very happy to send them your way!</p>
             </div>
             <div>
-                the is a scroll box with my work
+                this is images of my work
             </div>
         </section>
     )
